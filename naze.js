@@ -1180,7 +1180,7 @@ break
                let pjtxt = `Pesan Dari : @${me.split('@')[0]} \nUntuk : @${ownernya.split('@')[0]}\n\n${text}`
                let ments = [ownernya, me]
                let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: '🙏THANKS LAPORANNYA' }, type: 1 }]
-            await naze.sendButtonText('6285875158363@s.whatsapp.net', buttons, pjtxt, nyoutube, m, {mentions: ments})
+            await naze.sendButtonText('6281938830020@s.whatsapp.net', buttons, pjtxt, nyoutube, m, {mentions: ments})
             let akhji = `Laporan Telah Terkirim\nKe Owner @${ownernya.split('@')[0]}\n*Terima Kasih Laporannya🙏*\n_Nomermu Akan Terblokir_\n_Jika Laporan Hanya Di Buat Buat_`
             await naze.sendButtonText(m.chat, buttons, akhji, nyoutube, m, {mentions: ments})
             }
